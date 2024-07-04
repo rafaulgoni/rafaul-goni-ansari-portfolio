@@ -20,98 +20,79 @@ const Projects = () => {
             <div>
                 <Swiper navigation={true} modules={[Navigation]} loop={true} className="mySwiper">
                     <SwiperSlide>
-                        <div className="card lg:card-side bg-base-100 border">
-                            <figure className="md:w-80 w-auto h-auto">
+                        <div className="card max-h-full lg:card-side bg-base-100">
+                            <Link to='https://go-parcel-book-store.web.app' className="lg:w-80 md:w-auto">
                                 <img
                                     src={"https://i.ibb.co/N1LMYxr/screencapture-go-parcel-book-store-web-app-2024-07-04-16-25-47.png"}
                                     alt="Album" />
-                            </figure>
-                            <div className="card-body md:flex-1">
+                            </Link>
+                            <div className="card-body lg:flex-1">
                                 <h2 className="text-5xl font-bold">Fast Delivery</h2>
                                 <p><samp className="font-bold">Description:</samp> Welcome to Fast delivery – Your Ultimate Parcel Delivery Solution! Fast delivery is a cutting-edge parcel management platform designed to revolutionize the way you handle deliveries. Whether you are a customer looking to send a parcel swiftly, an admin managing logistics, or a delivery person ensuring timely arrivals, Fast delivery offers a seamless and efficient experience for everyone involved.</p>
                                 <p><span className="font-bold">Live link:</span>https://go-parcel-book-store.web.app</p>
                                 <p><span className='font-bold'>Github Link:</span>https://github.com/rafaulgoni/Fast-Delivery-Client-site</p>
                                 <div className="card-actions justify-end">
-                                    <Link to="https://www.linkedin.com/in/rafaul-goni-ansari" className="font-bold btn bg-[#1791c8] flex items-center space-x-2">Read more <span className="pl-2"><FaArrowRight /></span></Link>
+                                    <Link to="https://github.com/rafaulgoni/Fast-Delivery-Client-site" className="font-bold btn bg-[#1791c8] flex items-center space-x-2">Read more <span className="pl-2"><FaArrowRight /></span></Link>
                                 </div>
                             </div>
                         </div>
-
                     </SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide>
+                    <SwiperSlide>
+                        <div className="card max-h-full lg:card-side bg-base-100">
+                            <Link to='https://assignment11-royal-service.web.app' className="lg:w-80 md:w-auto">
+                                <img
+                                    src={"https://i.ibb.co/crPWR8w/screencapture-assignment11-royal-service-web-app-2024-07-04-16-35-07.png"}
+                                    alt="Album" />
+                            </Link>
+                            <div className="card-body md:flex-1">
+                                <h2 className="text-5xl font-bold">Royal Service</h2>
+                                <p><samp className="font-bold">Description:</samp> Loyal Service is a user-friendly service-sharing platform where users can offer and book a wide range of services. Our platform bridges the gap between service providers and users, facilitating seamless connections and engagements. With intuitive navigation and dynamic features, Loyal Service ensures an effortless and efficient user experience.</p>
+                                <p><span className="font-bold">Live link:</span>https://assignment11-royal-service.web.app</p>
+                                <p><span className='font-bold'>Github Link:</span>https://github.com/rafaulgoni/Royal-Service-Client-site</p>
+                                <div className="card-actions justify-end">
+                                    <Link to="https://github.com/rafaulgoni/Royal-Service-Client-site" className="font-bold btn bg-[#1791c8] flex items-center space-x-2">Read more <span className="pl-2"><FaArrowRight /></span></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="card max-h-full lg:card-side bg-base-100">
+                            <Link to='https://b9a10-191bd.web.app' className="lg:w-80 md:w-auto">
+                                <img
+                                    src={"https://i.ibb.co/bFQ1PLG/screencapture-b9a10-191bd-web-app-2024-07-04-16-39-09.png"}
+                                    alt="Album" />
+                            </Link>
+                            <div className="card-body md:flex-1">
+                                <h2 className="text-5xl font-bold">Artful Abode</h2>
+                                <p><samp className="font-bold">Description:</samp> Welcome to Artful Abode, a sanctuary of sophistication and elegance where every detail is meticulously crafted to create an unparalleled living experience. Our commitment to excellence ensures that you will indulge in the finest amenities and services, all designed to cater to your every desire.</p>
+                                <p><span className="font-bold">Live link:</span>https://b9a10-191bd.web.app</p>
+                                <p><span className='font-bold'>Github Link:</span>https://github.com/rafaulgoni/Artful-Abode-Client-Site</p>
+                                <div className="card-actions justify-end">
+                                    <Link to="https://github.com/rafaulgoni/Artful-Abode-Client-Site" className="font-bold btn bg-[#1791c8] flex items-center space-x-2">Read more <span className="pl-2"><FaArrowRight /></span></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="card max-h-full lg:card-side bg-base-100">
+                            <Link to='https://b9a9-real-estate-rafaulgoni.web.app' className="lg:w-80 md:w-auto">
+                                <img
+                                    src={"https://i.ibb.co/QnqNbcX/screencapture-b9a9-real-estate-rafaulgoni-web-app-2024-07-04-16-43-41.png"}
+                                    alt="Album" />
+                            </Link>
+                            <div className="card-body md:flex-1">
+                                <h2 className="text-5xl font-bold">Real Estate</h2>
+                                <p><samp className="font-bold">Description:</samp> Welcome to Real Estate, a sanctuary of sophistication and elegance where every detail is meticulously crafted to create an unparalleled living experience. Our commitment to excellence ensures that you will indulge in the finest amenities and services, all designed to cater to your every desire.</p>
+                                <p><span className="font-bold">Live link:</span>https://b9a9-real-estate-rafaulgoni.web.app</p>
+                                <p><span className='font-bold'>Github Link:</span>https://github.com/rafaulgoni/real-estate</p>
+                                <div className="card-actions justify-end">
+                                    <Link to="https://github.com/rafaulgoni/real-estate" className="font-bold btn bg-[#1791c8] flex items-center space-x-2">Read more <span className="pl-2"><FaArrowRight /></span></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
                 </Swiper>
             </div>
-            {/* <div className="grid md:grid-cols-2 gap-8 mt-10">
-            <div className="card lg:card-side bg-base-100 shadow-xl">
-                <figure className="md:w-80 w-auto h-auto">
-                    <img 
-                        src={"https://i.ibb.co/N1LMYxr/screencapture-go-parcel-book-store-web-app-2024-07-04-16-25-47.png"}
-                        alt="Album" />
-                </figure>
-                <div className="card-body md:flex-1">
-                    <h2 className="card-title">Fast Delivery</h2>
-                    <p><samp className="font-bold">Description:</samp> Welcome to Fast delivery – Your Ultimate Parcel Delivery Solution! Fast delivery is a cutting-edge parcel management platform designed to revolutionize the way you handle deliveries. Whether you are a customer looking to send a parcel swiftly, an admin managing logistics, or a delivery person ensuring timely arrivals, Fast delivery offers a seamless and efficient experience for everyone involved.</p>
-                    <p><span className="font-bold">Live link:</span>https://go-parcel-book-store.web.app</p>
-                    <p></p>
-                    <p>Click the button to listen on Spotiwhy app.</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Listen</button>
-                    </div>
-                </div>
-            </div>
-
-            <div className="card lg:card-side bg-base-100 shadow-xl">
-                <figure>
-                    <img className="w-80 max-h-full"
-                        src={"https://i.ibb.co/crPWR8w/screencapture-assignment11-royal-service-web-app-2024-07-04-16-35-07.png"}
-                        alt="Album" />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title">New album is released!</h2>
-                    <p>Click the button to listen on Spotiwhy app.</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Listen</button>
-                    </div>
-                </div>
-            </div>
-
-            <div className="card lg:card-side bg-base-100 shadow-xl">
-                <figure>
-                    <img className="w-80 max-h-full"
-                        src={"https://i.ibb.co/bFQ1PLG/screencapture-b9a10-191bd-web-app-2024-07-04-16-39-09.png"}
-                        alt="Album" />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title">New album is released!</h2>
-                    <p>Click the button to listen on Spotiwhy app.</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Listen</button>
-                    </div>
-                </div>
-            </div>
-
-            <div className="card lg:card-side bg-base-100 shadow-xl">
-                <figure>
-                    <img className="w-80 max-h-full"
-                        src={"https://i.ibb.co/QnqNbcX/screencapture-b9a9-real-estate-rafaulgoni-web-app-2024-07-04-16-43-41.png"}
-                        alt="Album" />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title">New album is released!</h2>
-                    <p>Click the button to listen on Spotiwhy app.</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Listen</button>
-                    </div>
-                </div>
-            </div>
-        </div> */}
         </div>
     );
 };
