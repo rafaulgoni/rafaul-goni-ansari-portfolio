@@ -2,6 +2,7 @@ import About from "../Components/HomeAllFile/About";
 import AllTimeRound from "../Components/HomeAllFile/AllTimeRound";
 import Banner from "../Components/HomeAllFile/Banner";
 import Contact from "../Components/HomeAllFile/Contact";
+import Projects from "../Components/HomeAllFile/Project/Projects";
 import Skill from "../Components/Skill/Skill";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             </div>
             <AllTimeRound/>
             <About/>
+            <Projects/>
             <Contact />
         </div>
     );
