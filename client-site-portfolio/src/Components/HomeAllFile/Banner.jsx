@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <div className="">
             <div className="hero bg-base-200 min-h-[600px]">
-                <div className="hero-content flex-col lg:flex-row-reverse md:pt-0 pt-20">
+                <div className="hero-content flex-col lg:flex-row-reverse md:pt-24 pt-20">
                     <img
                         src={"https://i.ibb.co/9rBwqdL/rafaul.jpg"}
                         className="md:max-w-sm w-auto rounded-lg shadow-2xl" />
