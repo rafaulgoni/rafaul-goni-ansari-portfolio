@@ -2,6 +2,8 @@ import { FaDownload } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter'
+import { ImGithub, ImLinkedin, ImFacebook } from "react-icons/im";
+
 
 const Banner = () => {
 
@@ -33,6 +35,11 @@ const Banner = () => {
                         </p>
                         <Link to="https://docs.google.com/document/d/1njO4qlDmnD_IUckrPcPRLkIzp3liVpqKKxoJFTDEN2g/edit?usp=sharing" className="btn bg-[#1791c8] mr-2 text-white"><FaDownload /> Resume</Link>
                         <Link to="https://www.linkedin.com/in/rafaul-goni-ansari" className="btn border border-black"><IoCall /> Contact</Link>
+                        <div className="pt-2 space-x-3 md:pl-10">
+                            <Link to="https://github.com/rafaulgoni"> <button className="border-2 border-[#1791c8] rounded-full p-2"><ImGithub className="text-2xl"/></button></Link>
+                            <Link to="https://www.linkedin.com/in/rafaul-goni-ansari/"> <button className="border-2 border-[#1791c8] rounded-full p-2"><ImLinkedin className="text-2xl"/></button></Link>
+                            <Link to="https://www.facebook.com/rafaulGoniAnsari1"> <button className="border-2 border-[#1791c8] rounded-full p-2"><ImFacebook className="text-2xl"/></button></Link>
+                        </div>
                     </div>
                 </div>
             </div>

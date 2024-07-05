@@ -48,15 +48,15 @@ const Contact = () => {
                         <form onSubmit={handleData} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
                             <label className="block">
                                 <span className="mb-1">Full name</span>
-                                <input type="text" placeholder="You name" name="name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-3" />
+                                <input type="text" placeholder="You name" name="name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-3" required/>
                             </label>
                             <label className="block">
                                 <span className="mb-1">Phone Number</span>
-                                <input type="number" placeholder="Your number" name="number" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-3" />
+                                <input type="number" placeholder="Your number" name="number" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-3" required/>
                             </label>
                             <label className="block">
                                 <span className="mb-1">Email address</span>
-                                <input type="email" placeholder="Your email" name="email" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-3" />
+                                <input type="email" placeholder="Your email" name="email" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-3" required/>
                             </label>
                             <label className="block">
                                 <span className="mb-1">Message</span>
